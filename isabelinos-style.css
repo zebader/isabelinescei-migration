@@ -1,0 +1,2125 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+ 
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    min-width: 320px;
+    color: #1d3c5f;
+}
+
+h1{
+   font-family: 'Fredoka One', cursive;
+    font-size: 3em;
+    font-style: italic;
+    text-shadow: 1px 1px 7px rgb(0, 0, 0);
+    color: white;
+    font-weight: 400;
+}
+
+h2{
+   font-family: 'Fredoka One', cursive;
+    font-size: 2em;
+    font-style: italic;
+    color: #df1b79;
+    text-align: center;
+
+}
+
+h3{
+
+    font-size: 1em;
+    text-shadow: 1px 1px 7px rgb(0, 0, 0);
+    color: white;
+
+}
+
+h4{
+    font-size: 1em;
+    text-align: center;
+    color: #bf2176;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+h5{
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.2em;
+    font-style: italic;
+   -webkit-hyphens: manual;
+       -ms-hyphens: manual;
+           hyphens: manual;
+    text-align: center;
+
+}
+h6{
+    font-family: 'Fredoka One', cursive;
+    font-size: 0.8em;
+    font-style: italic;
+    color: #010000;
+    text-align: center;
+
+}
+
+p{
+
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 20px;
+
+ 
+
+}
+
+.bold-text{
+
+background-color: #fff3c1;
+color: #df1b79;
+font-weight: 700;
+padding: 4px;
+font-style: italic;
+
+}
+
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+
+.red_text{
+    color:#ff7ec3;
+    font-weight: 700;
+}
+.margin_top_title{
+    margin-top: 90px;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #c11c45;
+    width: 250px;
+    margin: 10px auto;
+    padding: 0; 
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(255,255,255,1);
+    box-shadow: 0px 1px 0px 0px rgba(255,255,255,1);
+}
+
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+}
+
+
+header > #uppermenu-contact{
+    height: 35px;
+    background-color: #fff3c1;
+    position: relative;
+
+}
+
+header  > #uppermenu-contact> #uppermenu-contact-container{
+    max-width: 1020px;
+    position: relative;
+    margin: 0 auto;
+    line-height: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    vertical-align:middle;
+
+}
+
+header  > #uppermenu-contact> #uppermenu-contact-container > #uppermenu-data{
+
+         display: none;
+
+                }
+
+.padding-uppermenu {
+            padding: 0px 20px;
+            font-size: 0.8em;
+}
+
+
+
+header > nav {
+    background-color: white;
+    display: none;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    line-height: 70px;
+
+    
+}
+     
+    header nav > ul {
+       list-style-type: none;    
+    }
+         
+        header nav > ul > li {
+            border-bottom: 1px dotted rgba(0,0,0,.1);
+            position: relative;
+            font-family: 'Fredoka One', cursive;
+        }
+        #logo-menu-position{
+                position: relative;
+               top: 10px;
+        }
+        .menu-top-position{
+                position: relative;
+                 top: 5px;
+        }
+
+             
+            header nav > ul > li > a {
+                display: block;
+                color: #edd469;
+                padding: 0.5rem 0;
+                text-decoration: none;
+                -webkit-transition: 250ms all ease;
+                -o-transition: 250ms all ease;
+                transition: 250ms all ease;
+                font-size: 1.3em;
+                
+            }
+            #menu-contact-button{
+
+                color: #df1b79;
+          
+
+                        }
+            
+
+                     
+
+header nav > ul > li:last-of-type {
+    border-bottom: none;    
+}
+ 
+header nav > ul > li > a span.toggle {
+    background-color: rgba(0,0,0,.05);
+    border-radius: 3rem;
+    color: rgba(0,0,0,.25);
+    font-size: 0.75em;
+    font-weight: 500;
+    padding: 2px 8px;
+    text-transform: lowercase;    
+}
+ 
+header nav > ul > li > a span.caret {
+    display: none;
+}
+ 
+header > nav > ul > li:hover > a {
+    color:#fff3c1;  
+}
+
+header > nav > ul > li > nav {
+    background-color: rgb(51,51,51);
+    border-radius: 1.5em;
+    -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.6);
+            box-shadow: 0 2px 8px rgba(0,0,0,.6);
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 5%;
+    width: 90%;
+    z-index: 100;
+}
+
+header > nav > ul > li > nav > ul > li > a {
+    color: rgba(255,255,255,.85);
+    -webkit-transition: 300ms all ease;
+    -o-transition: 300ms all ease;
+    transition: 300ms all ease;
+}
+     
+    header > nav > ul > li > nav > ul > li:hover > a {
+        background-color: rgba(0,0,0,.6);
+        color: rgba(255,255,255,1);
+    }
+
+header > div#logo > div#navToggle {
+    background-color: rgba(0,0,0,0);
+    position: relative;
+    right: 0;
+    top: 0;
+    -webkit-transition: 300ms all ease;
+    -o-transition: 300ms all ease;
+    transition: 300ms all ease;
+}
+     
+    header > div#logo > div#navToggle:hover {
+        background-color: rgba(0,0,0,.1);
+    }
+     
+    header > div#logo > div#navToggle > a {
+        color: rgba(255,255,255,.85);
+        display: block;
+        font-size: 0.85em;
+        font-weight: 600;
+        padding: 0 2.5rem;
+        text-decoration: none;
+        -webkit-transition: 300ms all ease;
+        -o-transition: 300ms all ease;
+        transition: 300ms all ease;
+    }
+     
+        header > div#logo > div#navToggle:hover > a {
+            color: rgba(255,255,255,1);
+        }
+
+    header > div#logo {
+    line-height: 70px;
+    position: relative;
+    background-color: #edd469;
+    
+}
+ 
+header > div#logo > h1 {
+    color: white;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+.menu-fixed {
+    position:fixed;
+    z-index:1000;
+    top:0;
+    width:100%;
+    -webkit-box-shadow: 0px 6px 18px -8px rgba(112,0,0,1);
+    box-shadow: 0px 6px 18px -8px rgba(112,0,0,1);
+}
+
+
+section > div#hero-header{
+    margin: 0;
+    
+    position: relative;
+    height: 400px;
+}
+
+    section > div#hero-header > div#hero-header-container{
+        z-index: 1;
+        height: 560px;
+        position: relative;
+        width: 100%;
+    }
+
+        section > div#hero-header > div#hero-header-container > section#hero-header-content{
+
+       background: #f2f6f9 url(img/isabelinos-hero-header_2.jpg) 50% 0 repeat;
+       min-height: 400px;
+       height: 560px;
+       margin: 0 auto;
+       width: 100%;
+       max-width: 1920px;
+       background-size: 1080px;
+       background-repeat: no-repeat;
+
+
+       }
+         
+            section > div#hero-header > div#hero-header-container > section#hero-header-content > article { 
+            height: 560px; 
+            position: absolute; 
+            text-align: center; 
+            top: 55px; 
+            width: 100%; 
+
+            }
+
+#hero-header-pdf{
+    margin: 20px auto;
+
+}
+
+            section > div#hero-header > div#hero-header-container > section#hero-header-content > article > button{ 
+            height: 70px; 
+            position: relative; 
+            text-align: center; 
+            background-color: #c11c45;
+            width: 250px; 
+            color: white;
+            line-height: 70px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 1em;
+            border-radius: 10px;
+            border: none;
+            border-bottom: 3px solid #7f0000;
+            text-decoration: none;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            -o-transition-duration: 0.4s;
+               transition-duration: 0.4s;
+
+            }
+            section > div#hero-header > div#hero-header-container > section#hero-header-content > article > button:hover{ 
+          -webkit-box-shadow: 0px 0px 46px 0px rgba(255,243,193,1);
+box-shadow: 0px 0px 46px 0px rgba(255,243,193,1);
+
+            }
+
+
+
+            .sec-container{
+                display: -webkit-box;          
+                display: -ms-flexbox;
+                display: flex;
+
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                max-width: 1366px;
+                position: relative;
+                margin: 0 auto;
+                margin-bottom: 30px;
+
+
+            }
+
+            .sec-container-servicios {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                max-width: 1366px;
+                position: relative;
+                margin: 0 auto;
+                margin-bottom: 50px;
+            }
+
+                .sec-container > div#sec1-logo{
+                    background-image: url('img/isabelinos-logo-section1.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    height: 400px;
+                    width: 100%;
+                    
+
+                }
+                 .sec-container > div#sec1-content{
+                    padding-left: 0px;
+                    height:auto;
+                    width: 85%;
+                   
+
+
+                }
+                 .sec-container > div#title-bg{
+                    background-color: white;
+                    position: absolute;
+                    top: -50px;
+                    height: auto;
+                    width: auto;
+                    padding:20px 40px 20px 40px;
+                    border-radius: 70px;
+                    margin: 0 auto;
+                    z-index: 1;
+                    display: block;
+
+                }
+                 .title-bg{
+                    
+                    width: 100%;
+                    height: 170px;
+                    background-image: url('img/top-cloud.png');
+                   background-position: center;
+                   background-repeat: repeat-x;                 
+                    margin: 0 auto;
+                    z-index: 1;
+                    display: block;
+                    position: relative;
+                    
+                    
+
+                }
+                 .footer-title-bg{
+                    
+                    width: 100%;
+                    height: 170px;
+                    background-image: url('img/footer-cloud.png');
+                   background-position: center;
+                   background-repeat: repeat-x;                 
+                    margin: 0 auto;
+                    z-index: 1;
+                    display: block;
+                    position: relative;
+                    
+                    
+
+                }
+                 .margin-horarios{
+                margin-bottom: 40px;
+            }
+
+                .undertitle-bg{
+
+                    width: 100%;
+                    height: 170px;
+                    background-image: url('img/bottom-cloud.png');
+                   background-position: center;
+                   background-repeat: repeat-x;                 
+                    margin: 0 auto;
+                    z-index: 1;
+                    display: block;
+                    position: relative;
+
+
+                }
+
+
+
+             div#sec2-bg{
+                width: 100%;
+                background-color: white;
+                height: auto;
+
+
+            }
+            div#sec1-bg{
+                width: 100%;
+                height: auto;
+                background-color: #f6d561;
+                padding-top: 15px;
+                position: relative;
+                padding-bottom: 20px;
+
+            }
+             div#sec3-bg{
+                width: 100%;
+                height: auto;
+                background-color: #f6d561;
+                padding-top: 15px;
+                    padding-bottom: 50px;
+                position: relative;
+                
+
+            }
+
+            .title-wrap{
+
+                    height: auto;
+                    max-width: 1366px;
+                    padding:10px 40px 20px 40px;
+                    border-radius: 70px;
+                    margin: 0 auto;
+                    z-index: 1;
+                   
+                    margin-bottom: 30px;
+                    display: block;
+
+
+                }
+
+            .instalaciones-text{
+                width: 80%;
+                min-height: 460px;
+                background-color: white;
+                margin: 0 3% 30px 3%;
+                padding: 30px;
+            }
+
+            .cards-area{
+                width: 80%;
+                background-color: #cae3ff;
+                border-radius: 30px;
+                margin: 0 3% 30px 3%;
+                padding: 30px;
+                -webkit-transition: 250ms all ease;
+                -o-transition: 250ms all ease;
+                transition: 250ms all ease;
+
+
+            }
+
+
+            .cards-area > p{
+                    text-align: center;
+                    margin-top:20px;
+
+                 }
+
+            .cards-area:hover{
+                    -webkit-box-shadow: 0px 0px 46px 0px rgba(255,243,193,1);
+                    box-shadow: 0px 0px 46px 0px rgba(255,243,193,1);
+
+            }
+
+                .cards-area > .area-icon{
+                    width: 80%;
+                    height: auto;
+                    display: block;
+                    margin : auto;
+                    min-width: 80px;
+                }
+
+                .cards-area > .area-icon > img{
+                    display : block;
+                    margin : auto;
+                    width: 100%;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+
+
+                }
+
+
+
+             
+
+
+
+
+            .area_readmore{
+                color:#c11c45;
+                font-weight: 700;
+                text-align: center;
+                font-size: 1em;
+                text-decoration: underline;
+                margin: 30px;
+                cursor: pointer;
+                -webkit-transition: 250ms all ease;
+                -o-transition: 250ms all ease;
+                transition: 250ms all ease;
+
+            }
+            .area_readmore:hover{
+                color:#7f0000;
+                font-size: 1.1em;
+
+            }
+
+            .cards-servicios{
+                
+                min-height: 420px;
+                margin: 0 3% 30px 3%;
+                padding: 30px;
+                -webkit-transition: 250ms all ease;
+                -o-transition: 250ms all ease;
+                transition: 250ms all ease;
+                width: 90%;
+
+
+            }
+
+            .cards-servicios > p{
+                
+                margin-top: 20px;
+                text-align: center;
+
+
+            }
+
+
+
+                .description-servicios {
+                    width: 80%;
+                    border-radius: 80px;
+                    height: auto;
+                    margin: auto;
+                    background-color: #fff3c1;
+                    padding: 20px;
+                    margin-bottom: 30px;
+                    padding: 30px 60px 15px 60px;
+
+                                }
+                 #description-servicios-img{
+                    position: relative;
+                    top: -20px;
+                    display: block;
+                    width: 100%;
+                    }
+                    #description-servicios-img > img{
+
+                    margin: 0 auto;
+                    width: auto;
+                    height: auto;
+                    display: block;
+
+                    }
+
+
+
+            .servicios-img{
+                    width: 100%;
+                    
+                    
+                    margin: auto;
+                   
+                    padding: 20px;
+                    display: block;
+                   
+                    margin-bottom: 15px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex; 
+                    -webkit-box-pack: center; 
+                        -ms-flex-pack: center; 
+                            justify-content: center; 
+                    -webkit-box-align: center; 
+                        -ms-flex-align: center; 
+                            align-items: center;
+                    -webkit-transition: 250ms all ease;
+                    -o-transition: 250ms all ease;
+                    transition: 250ms all ease;
+            }
+            .servicios-img:hover{
+                    -webkit-transform: scale(1.05);
+                        -ms-transform: scale(1.05);
+                            transform: scale(1.05);
+            }
+            .servicios-img > img{
+                        width: 350px;  }
+            .equipo-subtitle{
+                    text-align: center;
+                    font-weight: 700;
+                    margin-top: 20px;
+
+            }
+            .equipo-epic{
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    padding: 0px 40px 20px 40px;
+                    width: 80%;
+            }
+            .button-center-pos{
+                    height: auto;
+                    max-width: 1366px;
+                    padding:20px 40px 20px 40px;
+                    border-radius: 70px;
+                    margin: 0 auto;
+                    z-index: 1;
+                    margin-bottom: 30px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex; 
+                    -webkit-box-pack: center; 
+                        -ms-flex-pack: center; 
+                            justify-content: center; 
+                    -webkit-box-align: center; 
+                        -ms-flex-align: center; 
+                            align-items: center;
+            }
+
+            button{ 
+                   height: 90px;
+                    position: relative;
+                    top: 50px;
+                    text-align: center;
+                    background-color: #df1b79;
+                    width: 280px;
+                    color: white;
+                    line-height: 90px;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 1.5em;
+                    border-radius: 60px;
+                    border: none;
+                    border-bottom: 3px solid #7f0000;
+                    text-decoration: none;
+                    cursor: pointer;
+                    -webkit-transition-duration: 0.4s;
+                    -o-transition-duration: 0.4s;
+                    transition-duration: 0.4s;
+
+
+            }
+            button:hover{ 
+                    -webkit-box-shadow: 0px 0px 46px 0px rgba(255,243,193,1);
+                    box-shadow: 0px 0px 46px 0px rgba(255,243,193,1);
+
+                }
+
+            .center-sec1-button{
+                position: absolute;
+                margin:0 auto;
+
+
+
+            }
+
+            footer{
+                background-color: #003960;
+                width: 100%;
+                height: auto;
+                position:relative;
+                padding-bottom: 20px;
+                left:0px;
+                bottom:0px;
+                padding-top: 5px;
+
+            }
+            .margin-horarios{
+                margin-bottom: 40px;
+            }
+
+            .contact-data{
+                width: 80%;
+                height: auto;
+                border-radius: 10px;
+                margin: 0 3% 30px 3%;
+                padding: 10px;
+
+
+            }
+            .contact-data > p{
+                color: white;
+                font-weight: 700;
+                margin-top: 20px;
+
+
+            }
+
+            .contact-data > h4{
+                text-align: left;
+                color: #ff7ec3;
+
+
+
+            }
+
+            .contact-data > ul > li{
+                left: 25px;
+                position: relative;
+                color: white;
+                font-weight: 700;
+                margin-top: 20px;
+                font-size: 0.8em;
+                text-align: left;
+                margin-bottom: 20px;
+
+
+            }
+
+            .contact-form{
+                width: 80%;
+                height: auto;
+                border-radius: 10px;
+                margin: 0 3% 30px 3%;
+                padding: 10px;
+
+
+            }
+
+            .contact-form > h4{
+                text-align: left;
+               color: #ff7ec3;
+
+
+
+            }
+            .contact-form > form > label{
+                display: block;
+                margin: 10px 0 10px 0;
+                color:#cdcdcd;
+
+
+            }
+
+            .contact-form > form > input, textarea {
+                width:100%;
+                height:40px;
+                background:#efefef;
+                border:1px solid black;
+                border-radius: 20px;
+                padding:10px;
+                margin-top:3px;
+                font-size:0.8em;
+                font-family: 'Open Sans', sans-serif; 
+                font-weight: 400;
+            }
+
+            .contact-form > form > textarea {
+                height:80px;
+
+            }
+
+            .contact-form > form > input:focus, textarea:focus {
+                border:2px solid #bf2176;
+            }   
+
+            .contact-form > form > #submit {
+                height: 90px;
+                position: relative;
+
+                text-align: center;
+                background-color: #df1b79;
+                width: 100%;
+                color: white;
+
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 700;
+                font-size: 1.5em;
+                border-radius: 60px;
+                border: none;
+                border-bottom: 3px solid #7f0000;
+                text-decoration: none;
+                cursor: pointer;
+                -webkit-transition-duration: 0.4s;
+                -o-transition-duration: 0.4s;
+                transition-duration: 0.4s;
+            }
+            .contact-form > form > #submit:hover{ 
+                        -webkit-box-shadow: 0px 0px 46px 0px rgba(255,243,193,1);
+                    box-shadow: 0px 0px 46px 0px rgba(255,243,193,1);
+
+                }
+           
+
+
+            .closing-text{
+                text-align: center;
+                 color: white;
+                 font-size: 0.8em;
+                 margin: 0;
+            }
+
+            .text-justify{
+                text-align: justify;
+            }
+
+
+            .horarios-padding{
+                    padding: 40px 60px 20px 60px;
+                    margin-bottom: 80px;
+            }
+
+              .instalaciones-kid{
+                width: 90%;
+                margin: -15% 3% -30% 3%;
+                padding: 0px;
+                -webkit-transition: 250ms all ease;
+                -o-transition: 250ms all ease;
+                transition: 250ms all ease;
+                z-index: 2;
+
+
+                }
+                .instalaciones-kid > img{
+                    
+                        z-index: 1;
+                        position: relative;
+                        top: 0px;
+                        width: 100%;
+                }
+                .instalaciones-text{
+                width: 90%;
+                min-height: 460px;
+                background-color: white;
+                margin: 0 3% 30px 3%;
+                padding: 30px;
+
+            }
+                .instalaciones-text > p{
+                
+                padding-bottom: 30px;
+                position: relative;
+                 left: -15px;
+
+            }
+               .instalaciones-text > ul{
+                
+                padding-bottom: 30px;
+
+            }
+
+
+           .instalaciones-text > ul > li{
+                
+                padding-bottom:30px;
+
+            }
+
+            #fixed-info{
+
+                background-color: rgba(0, 0, 0, 0.6);
+                display: none;
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                z-index: 999;
+
+            }
+            #fixed-info img{
+
+                 position: absolute;
+                  left: 50%;
+                  top: 50%;
+                
+                  transform: translate(-50%, -50%);
+
+
+            }
+
+
+
+/* ----------------------------------Medium screens------------------------------------------------------------------------------------------------------------- */
+        @media all and (min-width: 600px) {
+
+            h1{
+                font-family: 'Fredoka One', cursive;
+                font-size: 3.5em;
+                font-style: italic;
+                text-shadow: 1px 1px 7px rgb(0, 0, 0);
+                color: white;
+                font-weight: 400;
+            }
+
+            h2{
+                font-family: 'Fredoka One', cursive;
+                font-size: 2em;
+                font-style: italic;
+                color: #df1b79;
+
+            }
+
+            h3{
+
+                font-size: 1.2em;
+                text-shadow: 1px 1px 7px rgb(0, 0, 0);
+                color: white;
+
+            }
+           header  > #uppermenu-contact> #uppermenu-contact-container > #uppermenu-data{
+
+                 display: none;  }
+
+             .padding-uppermenu {
+            padding: 0px 20px;
+
+            }
+
+            
+
+            section > div#hero-header > div#hero-header-container > section#hero-header-content{
+
+                background: #f2f6f9  url(img/isabelinos-hero-header_2.jpg) 50% -60px repeat;
+                min-height: 400px;
+                height: 560px; 
+                margin: 0 auto;  
+                max-width: 100%; 
+                position: relative; 
+                background-size: 1366px;
+                background-repeat: no-repeat;
+
+                }
+
+            section > div#hero-header > div#hero-header-container > section#hero-header-content > article { 
+                height: 560px; 
+                position: absolute; 
+                text-align: center; 
+                top: 40px; 
+                 max-width: 900px;
+                position: relative;
+                margin: 0 auto;
+
+            }
+            section > div#hero-header > div#hero-header-container > section#hero-header-content > article > #title-left-align{ 
+                height: auto;
+                width: 50%;
+            }
+
+
+
+
+
+
+            .sec-container{
+
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: row;
+                        flex-direction: row;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: start;
+                    -ms-flex-align: start;
+                        align-items: flex-start;
+                max-width: 1366px;
+                position: relative;
+                margin: 0 auto;
+                margin-bottom: 0px;
+
+
+            }
+            .flex-center{
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+            }
+
+            .sec-container-servicios {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                max-width: 1366px;
+                position: relative;
+                margin: 0 auto;
+                margin-bottom: 50px;
+            }
+
+
+                .sec-container > div#sec1-logo{
+                    background-image: url('img/isabelinos-logo-section1.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    height: 320px;
+                    width: 30%;
+                    display: none;
+                    position: relative;
+                    top: 0px;
+
+                }
+                 .sec-container > div#sec1-content{
+                    padding-left: 20px;
+                    height:auto;
+                    width: 85%;
+                    display: inline-block;
+
+                }
+
+                 .sec-container > div#vertical-bar {
+                    border-left: 1px solid #c11c45;
+                    width: 1px;
+                    height: 220px;
+                    position: relative;
+                    top: 0px;
+                    margin: 0px 20px 0px 20px;
+                    display: inline-block;
+                }
+
+
+
+             div#sec2-bg{
+                width: 100%;
+                background-color: white;
+                height: auto;
+              
+
+            }
+            .instalaciones-text{
+                width: 60%;
+                min-height: 460px;
+                background-color: white;
+                margin: 0 3% 30px 3%;
+                padding: 30px;
+            }
+
+
+            .cards-area{
+                width: 40%;
+                background-color: #cae3ff;
+                border-radius: 30px;
+                min-height: 320px;
+                margin: 0 3% 30px 3%;
+                padding: 30px;
+                -webkit-transition: 250ms all ease;
+                -o-transition: 250ms all ease;
+                transition: 250ms all ease;
+                min-height: 375px;
+
+
+            }
+                 .cards-area > p{
+                    text-align: center;
+                    margin-top:20px;
+
+
+                 }
+
+
+
+            .cards-servicios{
+                
+                min-height: 420px;
+                margin: 0;
+                padding: 30px;
+                -webkit-transition: 250ms all ease;
+                -o-transition: 250ms all ease;
+                transition: 250ms all ease;
+                width: 90%;
+
+
+            }
+            .description-servicios {
+                    width: 50%;
+                    border-radius: 80px;
+                    height: auto;
+                    margin: auto;
+                    background-color: #fff3c1;
+                    padding: 20px;
+                    margin-bottom: 30px;
+                    padding: 30px 60px 15px 60px;
+                }
+
+            #description-servicios-img{
+                    position: relative;
+                    top: -20px;
+                    width: auto;
+                    }
+            #description-servicios-img > img{
+
+                    margin: 0 auto;
+                    width: auto;
+                    height: auto;
+                    display: block;
+
+                    }
+
+
+
+            .description-servicios > p.margin-bottom{
+                    margin-bottom: 0px;
+                    text-align: left;
+
+                }
+            .horarios-padding{
+                    padding: 40px 60px 20px 60px;
+                    margin-bottom: 80px;
+            }
+
+
+
+            .servicios-img > img {
+                width: 460px;
+            }
+
+
+            .contact-data{
+                width: 30%;
+                height: auto;
+                border-radius: 10px;
+                margin: 0 3% 30px 3%;
+                padding: 10px;
+
+
+            }
+
+
+            .contact-data > h4{
+                text-align: left;
+
+
+
+            }
+
+
+
+            .contact-data{
+                width: 45%;
+                height: auto;
+                border-radius: 10px;
+                margin: 0 3% 30px 3%;
+                padding: 10px;
+
+
+            }
+
+
+            .contact-data > h4{
+                text-align: left;
+
+
+
+            }
+
+            .contact-data > ul > li{
+                left: 25px;
+                position: relative;
+                color: white;
+                font-weight: 700;
+                margin-top: 20px;
+                font-size: 0.8em;
+                text-align: left;
+                margin-bottom: 20px;
+
+
+            }
+
+            .contact-form{
+                width: 45%;
+                height: auto;
+                border-radius: 10px;
+                margin: 0 3% 30px 3%;
+                padding: 10px;
+
+
+            }
+            .margin-horarios{
+                margin-bottom: 40px;
+            }
+
+             .instalaciones-kid{
+                    width: 40%;
+                    min-height: 450px;
+                    margin: 0 3% 30px 3%;
+                    padding: 30px;
+                    -webkit-transition: 250ms all ease;
+                    -o-transition: 250ms all ease;
+                    transition: 250ms all ease;
+                    display:none;
+
+
+                }
+                .instalaciones-kid > img{
+                    
+                        z-index: 1;
+                        position: relative;
+                        top: -60px;
+                        width: 100%;
+                }
+ 
+
+
+
+
+        }
+
+
+
+/* ----------------------------------big screens------------------------------------------------------------------------------------------------------------- */
+            @media all and (min-width: 820px) {
+
+                h5{
+                    font-family: 'Fredoka One', cursive;
+                    font-size: 1.2em;
+                    font-style: italic;
+                    -webkit-hyphens: manual;
+                        -ms-hyphens: manual;
+                            hyphens: manual;
+                    text-align: center;
+
+                }
+
+
+
+header > div#logo > div#navToggle {
+               display: none;    
+            }
+             
+            header nav > ul > li > a span.toggle {
+                display: none;    
+            }
+             
+            header nav > ul > li > a span.caret {
+                border-bottom: 4px solid transparent;
+                border-top: 4px solid rgba(0,0,0,.65);
+                border-right: 4px solid transparent;
+                border-left: 4px solid transparent;
+                border-radius: 1px;
+                content: "";
+                display: inline-block;
+                height: 0;
+                margin: 0 0 0 .25rem;
+                -webkit-transition: 250ms all ease;
+                -o-transition: 250ms all ease;
+                transition: 250ms all ease;
+                width: 0;
+                vertical-align: middle;
+            }
+             
+                header nav > ul > li:hover > a span.caret {
+                    border-top-color: rgb(140, 193, 193);
+                    -webkit-transform: rotate(270deg);
+                        -ms-transform: rotate(270deg);
+                            transform: rotate(270deg); 
+                }
+
+            header > nav {
+                background-color: transparent;
+                display: block;
+                background-color: #edd469;
+            }
+             
+                header > nav > ul {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                        -ms-flex-flow: row wrap;
+                            flex-flow: row wrap;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;  
+                }
+                 
+                    header nav > ul > li {
+                        border-bottom: none;
+                    }
+             
+                        header nav > ul > li > a {
+                           padding: 0 1rem;
+                            color: white;
+                            font-size: 1.7vmax;
+                            text-shadow: 2px 2px 1px rgba(201, 163, 0, 1);
+                        }
+                        #menu-contact-button{
+
+                        color: #df1b79;
+                        border: 2px solid #df1b79;
+                        border-radius: 45px;
+                        margin-top: 8px;
+                        line-height: 60px;
+                        text-shadow: none;
+                        margin-bottom: 10px;
+
+                        }
+
+            header > nav > ul > li:hover > nav {
+                background-color: rgb(51,51,51);
+                border-radius: .25em;
+                -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.6);
+                        box-shadow: 0 2px 8px rgba(0,0,0,.6);
+                display: block;
+                line-height: 3em;
+                right: -50%;
+                width: 196px;
+            }        
+
+            header > div#logo {
+                line-height: 70px;
+                position: relative;
+                 background-color: #edd469;
+                border-bottom:none;
+            }
+            header  > #uppermenu-contact> #uppermenu-contact-container > #uppermenu-data{
+
+         display: inline-block;  }
+
+            .padding-uppermenu {
+
+            padding: 0px 20px;
+
+            }
+
+
+                .description-servicios {
+                    width: 50%;
+                    max-width: 700px;
+                    border-radius: 80px;
+                    height: auto;
+                    margin: auto;
+                    background-color: #fff3c1;
+                    padding: 20px;
+                    margin-bottom: 30px;
+                    padding: 30px 60px 15px 60px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                    -ms-flex-direction: row;
+                    flex-direction: row;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    -webkit-box-align: start;
+                    -ms-flex-align: start;
+                    align-items: flex-start;
+                                }
+                 #description-servicios-img{
+                    position: relative;
+                    top: -20px;
+                    width: auto;
+                    position: relative;
+
+
+                    }
+                    #description-servicios-img > img{
+
+                    margin: 0 auto;
+                    width: auto;
+                    height: auto;
+                    display: block;
+
+                    }
+
+
+
+
+                 .description_text_position{
+                    margin-bottom: 0px;
+                    text-align: left;
+                    margin-bottom: 15px;
+
+                }
+
+            .sec-container-servicios {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: row;
+                        flex-direction: row;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: start;
+                    -ms-flex-align: start;
+                        align-items: flex-start;
+                max-width: 1366px;
+                position: relative;
+                margin: 0 auto;
+                margin-bottom: 50px;
+            }
+
+                .cards-area > .area-icon{
+                    width: 80%;
+                    height: auto;
+                    display: block;
+                    margin : auto;
+                    min-width: 80px;
+                }
+                .cards-area > .area-icon > .area-icon > img{
+                    display : block;
+                    margin : auto;
+                    width: 100%;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+
+                }
+
+                .instalaciones-text{
+                width: 60%;
+                min-height: 460px;
+                background-color: white;
+                margin: 0 3% 30px 3%;
+                padding: 30px;
+
+            }
+                .instalaciones-text > p{
+                
+                padding-bottom: 30px;
+                position: relative;
+                 left: -15px;
+
+            }
+                .instalaciones-text > ul{
+                
+                padding-bottom: 30px;
+
+            }
+
+
+                .instalaciones-text > ul > li{
+                
+                padding-bottom:30px;
+
+            }
+
+                .instalaciones-kid{
+                  width: 40%;
+                    max-height: 639px;
+                    margin: 0 3% 30px 3%;
+                    padding: 30px;
+                    -webkit-transition: 250ms all ease;
+                    -o-transition: 250ms all ease;
+                    transition: 250ms all ease;
+                    z-index: 2;
+
+
+                }
+                .instalaciones-kid > img{
+                    
+                        z-index: 1;
+                        position: relative;
+                        top: -60px;
+                        width: 100%;
+                }
+
+                .cards-area{
+                    width: 25%;
+                background-color: #cae3ff;
+                border-radius: 30px;
+                    margin: 0 3% 30px 3%;
+                    padding: 30px;
+                    -webkit-transition: 250ms all ease;
+                    -o-transition: 250ms all ease;
+                    transition: 250ms all ease;
+                    min-height: 375px;
+
+
+                }
+
+                 .cards-area > p{
+                    text-align: center;
+                    margin-top:20px;
+
+
+                 }
+
+                .cards-servicios{
+            
+                min-height: 460px;
+               
+                  width: 33%;
+               
+                margin: 0;
+                padding: 30px;
+                -webkit-transition: 250ms all ease;
+                -o-transition: 250ms all ease;
+                transition: 250ms all ease;
+
+
+            }
+
+            .servicios-img > img {
+                width: 110%;
+            }
+
+
+            .contact-data{
+                width:40%;
+                height: auto;
+                border-radius: 10px;
+                margin: 0 3% 30px 3%;
+                padding: 10px;
+
+
+            }
+            .contact-form{
+                width: 40%;
+                height: auto;
+                border-radius: 10px;
+                margin: 0 3% 30px 3%;
+                padding: 10px;
+
+
+            }
+            .sec-container{
+
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: row;
+                        flex-direction: row;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: start;
+                    -ms-flex-align: start;
+                        align-items: flex-start;
+                max-width: 1366px;
+                position: relative;
+                margin: 0 auto;
+                margin-bottom: 0px;
+
+
+            }
+            .flex-center{
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+            }
+            .sec-container > div#sec1-logo{
+                    background-image: url('img/isabelinos-logo-section1.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    height: 320px;
+                    width: 30%;
+                    display: inline-block;
+                    position: relative;
+                    top: 0px;
+
+                }
+            .sec-container > div#sec1-content{
+                    padding-left: 20px;
+                    height:auto;
+                    width: 60%;
+                    display: inline-block;
+
+                }
+            .margin-horarios{
+                margin-bottom: 40px;
+            }
+            .horarios-padding{
+                    padding: 40px 60px 20px 60px;
+                    margin-bottom: 80px;
+            }
+            .instalaciones-kid{
+                    width: 40%;
+                    min-height: 450px;
+                    margin: 0 3% 30px 3%;
+                    padding: 30px;
+                    -webkit-transition: 250ms all ease;
+                    -o-transition: 250ms all ease;
+                    transition: 250ms all ease;
+                    display:block;
+
+
+                }
+                .instalaciones-kid > img{
+                    
+                        z-index: 1;
+                        position: relative;
+                        top: -60px;
+                        width: 100%;
+                }
+
+
+
+            }
+
+
+
+
+/* ---------------------------------- mega big screens------------------------------------------------------------------------------------------------------------- */
+            @media all and (min-width: 1125px) {
+
+                h5{
+                    font-family: 'Fredoka One', cursive;
+                    font-size: 1.2em;
+                    font-style: italic;
+                    -webkit-hyphens: manual;
+                        -ms-hyphens: manual;
+                            hyphens: manual;
+                    text-align: center;
+
+                }
+
+
+
+header > div#logo > div#navToggle {
+               display: none;    
+            }
+             
+            header nav > ul > li > a span.toggle {
+                display: none;    
+            }
+             
+            header nav > ul > li > a span.caret {
+                border-bottom: 4px solid transparent;
+                border-top: 4px solid rgba(0,0,0,.65);
+                border-right: 4px solid transparent;
+                border-left: 4px solid transparent;
+                border-radius: 1px;
+                content: "";
+                display: inline-block;
+                height: 0;
+                margin: 0 0 0 .25rem;
+                -webkit-transition: 250ms all ease;
+                -o-transition: 250ms all ease;
+                transition: 250ms all ease;
+                width: 0;
+                vertical-align: middle;
+            }
+             
+                header nav > ul > li:hover > a span.caret {
+                    border-top-color: rgb(140, 193, 193);
+                    -webkit-transform: rotate(270deg);
+                        -ms-transform: rotate(270deg);
+                            transform: rotate(270deg); 
+                }
+
+            header > nav {
+                background-color: transparent;
+                display: block;
+                background-color: #edd469;
+            }
+             
+                header > nav > ul {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                        -ms-flex-flow: row wrap;
+                            flex-flow: row wrap;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;  
+                }
+                 
+                    header nav > ul > li {
+                        border-bottom: none;
+                    }
+             
+                        header nav > ul > li > a {
+                            padding: 0 2rem;
+                            color: white;
+                            font-size: 1.3em;
+                            text-shadow: 2px 2px 1px rgba(201, 163, 0, 1);
+                        }
+                        #menu-contact-button{
+
+                        color: #df1b79;
+                        border: 2px solid #df1b79;
+                        border-radius: 45px;
+                        margin-top: 8px;
+                        line-height: 60px;
+                        text-shadow: none;
+                        margin-bottom: 10px;
+
+                        }
+
+            header > nav > ul > li:hover > nav {
+                background-color: rgb(51,51,51);
+                border-radius: .25em;
+                -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.6);
+                        box-shadow: 0 2px 8px rgba(0,0,0,.6);
+                display: block;
+                line-height: 3em;
+                right: -50%;
+                width: 196px;
+            }        
+
+            header > div#logo {
+                line-height: 70px;
+                position: relative;
+                 background-color: #edd469;
+                border-bottom:none;
+            }
+            header  > #uppermenu-contact> #uppermenu-contact-container > #uppermenu-data{
+
+         display: inline-block;  }
+
+            .padding-uppermenu {
+
+            padding: 0px 20px;
+
+            }
+
+
+                .description-servicios {
+                    width: 50%;
+                    max-width: 700px;
+                    border-radius: 80px;
+                    height: auto;
+                    margin: auto;
+                    background-color: #fff3c1;
+                    padding: 20px;
+                    margin-bottom: 30px;
+                    padding: 30px 60px 15px 60px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                    -ms-flex-direction: row;
+                    flex-direction: row;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    -webkit-box-align: start;
+                    -ms-flex-align: start;
+                    align-items: flex-start;
+                                }
+                 #description-servicios-img{
+                    position: relative;
+                    top: -20px;
+                    width: auto;
+                    position: relative;
+
+
+                    }
+                    #description-servicios-img > img{
+
+                    margin: 0 auto;
+                    width: auto;
+                    height: auto;
+                    display: block;
+
+                    }
+
+
+
+
+                 .description_text_position{
+                    margin-bottom: 0px;
+                    text-align: left;
+                    margin-bottom: 15px;
+
+                }
+
+            .sec-container-servicios {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: row;
+                        flex-direction: row;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: start;
+                    -ms-flex-align: start;
+                        align-items: flex-start;
+                max-width: 1366px;
+                position: relative;
+                margin: 0 auto;
+                margin-bottom: 50px;
+            }
+
+                .cards-area > .area-icon{
+                    width: 80%;
+                    height: auto;
+                    display: block;
+                    margin : auto;
+                    min-width: 80px;
+                }
+                .cards-area > .area-icon > .area-icon > img{
+                    display : block;
+                    margin : auto;
+                    width: 100%;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+
+                }
+
+                .instalaciones-text{
+                width: 60%;
+                min-height: 460px;
+                background-color: white;
+                margin: 0 3% 30px 3%;
+                padding: 30px;
+
+            }
+                .instalaciones-text > p{
+                
+                padding-bottom: 30px;
+                position: relative;
+                 left: -15px;
+
+            }
+                .instalaciones-text > ul{
+                
+                padding-bottom: 30px;
+
+            }
+
+
+                .instalaciones-text > ul > li{
+                
+                padding-bottom:30px;
+
+            }
+
+                .instalaciones-kid{
+                  width: 40%;
+                    max-height: 639px;
+                    margin: 0 3% 30px 3%;
+                    padding: 30px;
+                    -webkit-transition: 250ms all ease;
+                    -o-transition: 250ms all ease;
+                    transition: 250ms all ease;
+                    z-index: 2;
+
+
+                }
+                .instalaciones-kid > img{
+                    
+                        z-index: 1;
+                        position: relative;
+                        top: -60px;
+                        width: 100%;
+                }
+
+                .cards-area{
+                    width: 19%;
+                background-color: #cae3ff;
+                border-radius: 30px;
+                    margin: 0 3% 30px 3%;
+                    padding: 30px;
+                    -webkit-transition: 250ms all ease;
+                    -o-transition: 250ms all ease;
+                    transition: 250ms all ease;
+                    min-height: 375px;
+
+
+                }
+
+                 .cards-area > p{
+                    text-align: center;
+                    margin-top:20px;
+
+
+                 }
+
+                .cards-servicios{
+            
+                min-height: 460px;
+               
+                  width: 33%;
+               
+                margin: 0;
+                padding: 30px;
+                -webkit-transition: 250ms all ease;
+                -o-transition: 250ms all ease;
+                transition: 250ms all ease;
+
+
+            }
+
+            .servicios-img > img {
+                width: 110%;
+            }
+
+
+            .contact-data{
+                width:40%;
+                height: auto;
+                border-radius: 10px;
+                margin: 0 3% 30px 3%;
+                padding: 10px;
+
+
+            }
+            .contact-form{
+                width: 40%;
+                height: auto;
+                border-radius: 10px;
+                margin: 0 3% 30px 3%;
+                padding: 10px;
+
+
+            }
+            .sec-container{
+
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: row;
+                        flex-direction: row;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: start;
+                    -ms-flex-align: start;
+                        align-items: flex-start;
+                max-width: 1366px;
+                position: relative;
+                margin: 0 auto;
+                margin-bottom: 0px;
+
+
+            }
+            .flex-center{
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+            }
+            .sec-container > div#sec1-logo{
+                    background-image: url('img/isabelinos-logo-section1.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    height: 320px;
+                    width: 30%;
+                    display: inline-block;
+                    position: relative;
+                    top: 0px;
+
+                }
+            .sec-container > div#sec1-content{
+                    padding-left: 20px;
+                    height:auto;
+                    width: 60%;
+                    display: inline-block;
+
+                }
+            .margin-horarios{
+                margin-bottom: 40px;
+            }
+            .horarios-padding{
+                    padding: 40px 60px 20px 60px;
+                    margin-bottom: 80px;
+            }
+            .instalaciones-kid{
+                    width: 40%;
+                    min-height: 450px;
+                    margin: 0 3% 30px 3%;
+                    padding: 30px;
+                    -webkit-transition: 250ms all ease;
+                    -o-transition: 250ms all ease;
+                    transition: 250ms all ease;
+                    display:block;
+
+
+                }
+                .instalaciones-kid > img{
+                    
+                        z-index: 1;
+                        position: relative;
+                        top: -60px;
+                        width: 100%;
+                }
+
+
+
+
+
+        }
+
